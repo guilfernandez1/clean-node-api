@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   roots: ['<rootDir>/src'],
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: "coverage",
@@ -7,4 +7,4 @@ export default {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-};
+}
